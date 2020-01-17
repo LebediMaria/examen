@@ -1,0 +1,132 @@
+body {
+	background-image: url(img/background.jpg);
+	background-size: 100%;
+  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+}
+
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 120px;
+    line-height: .85;
+    margin: 10px 0;
+}
+.white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #CD5C5C;
+    border-radius: 3px;
+    color: #FFC0CB;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+}
+
+.white-mode:hover {
+    background-color: #8B0000;
+    color:  #B22222;
+}
+a {
+  text-decoration: none;
+}
+button {
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 80%;
+  background: rgba(255, 255, 255, 0.5);
+  border: 0;
+  border-radius: 35px;
+  font-family: Monotype Corsiva;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: Thistle;
+  opacity: 0.7;
+  color: Olive;
+  text-shadow: 1px 1px 2px black, 0 0 1em white;
+  cursor: pointer;
+}
+.btn2 {
+  left: 350px;
+  width: 250px;
+  background-color: LightCoral;
+  color: white;
+  text-shadow: 2px 2px 3px black, 0 0 1em white;
+  border-bottom: 4px solid pink;
+}
+.btn2:hover {
+  background-color: pink;
+}
+.btn3 {
+  left: 750px;
+  width: 250px;
+  background-color: LightBlue;
+  color: Teal;
+  text-shadow: 2px 2px 3px white, 0 0 1em white;
+  border-bottom: 4px solid LightCyan;
+}
+.btn3:hover {
+  background-color: Aquamarine;
+}
+img {
+  height: 60%;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+h2 {
+  font-family: monotype Corsiva;
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  text-shadow: 2px 2px 3px LightCoral, 0 0 1em LightCoral;
+}
+form {
+  font-family: Cambria;
+  size: 26px;
+  color: white;
+  padding-left: 20px;
+  text-shadow: 2px 2px 3px LightCoral, 0 0 1em LightCoral;
+  background-color: rgba(103, 128, 159, 0.7);
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  transition: .6s filter;
+  box-shadow: 0 0 8px 8px LightCoral inset;
+}
+form sup {
+  text-shadow: 2px 2px 3px black, 0 0 1em white; 
+}
+.marker {
+  margin-left: 20px;
+}
+.btn4 {
+  font-family: Monotype Corsiva;
+  background-color: coral;
+  opacity: 0.5;
+  color: white;
+  text-shadow: 2px 2px 3px LightCoral, 0 0 1em LightCoral;
+  float: right;
+  font-size: 26px;
+  margin-top: -30px;
+  margin-right: 20px;
+  border: 0;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.btn4:hover {
+  background-color: lightpink;
+}

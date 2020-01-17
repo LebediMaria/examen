@@ -1,0 +1,30 @@
+.clr{clear:both;}
+body {background-color:#ddd;}
+#main {
+  text-align:center;
+}
+#main ul {font-size:12px; }
+#main i {font-size:3em;}
+#main li {display:inline-block;}
+#main a, #main p, #main h1 {
+  color:GREEN;
+  font-family:"Bodoni MT Condensed";
+  font-size: 30px;
+  padding:0em 1em;
+}
+#main a:hover {
+  background-color:#eee8da;
+}
+.green {
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 700;
+ color: green;
+   text-shadow:
+   1px 1px 0px #DCDCDC, 
+   2px 2px 0px #708090, 
+   3px 3px 0px #C0C0C0,
+   4px 4px 0px #A9A9A9,
+   5px 5px 0px #000000,
+   6px 6px 0px #696969,
+ }
